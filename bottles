@@ -1,0 +1,8 @@
+command = 99
+
+while command > 0
+puts "#{command} bottles of beer on the wall. #{command} bottles of beer. You take one down, you pass it around. You have #{command - 1} bottles of beer on the wall."
+command = command - 1
+
+end
+puts 'done'

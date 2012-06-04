@@ -1,0 +1,19 @@
+puts 'say something sunny'
+
+statement = gets.chomp
+
+while statement != 'Bye'
+
+  if statement.upcase == statement
+  x = rand(1938..1950)
+  puts "Not since #{x}"
+  
+  else
+  puts 'Huh? Speak up sonny'
+  
+end
+
+statement = gets.chomp
+
+end
+  

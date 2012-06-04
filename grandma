@@ -1,0 +1,25 @@
+# Write a Deaf Grandma program. Whatever you say to grandma (whatever you type in), she should respond with  HUH?!  SPEAK UP, SONNY!, 
+#unless you shout it (type in all capitals). If you shout, she can hear you (or at least she thinks so) and yells back, NO, NOT SINCE 1938! 
+
+puts 'ask grandma a question'
+
+statement = gets.chomp
+while statement != 'Bye'
+  
+  if statement.upcase == statement
+    x = rand(1938..1950)
+    puts "No, Not since #{x}"
+    
+
+  else 
+    puts 'HUH? SPEAK UP SONNY!' 
+    
+
+
+  end
+  
+  statement = gets.chomp
+  
+end
+
+puts 'We\'re Done.'
